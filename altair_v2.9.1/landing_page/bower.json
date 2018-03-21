@@ -1,0 +1,40 @@
+{
+  "name": "altair_admin_landing_page",
+  "authors": [
+    "tzd"
+  ],
+  "description": "Landing Page for Material Design Premium Admin Template",
+  "main": [
+    "index.html"
+  ],
+  "keywords": [
+    "admin",
+    "panel",
+    "material",
+    "design",
+    "landing page"
+  ],
+  "license": "http://themeforest.net/licenses",
+  "homepage": "http://altair.tzdthemes.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dense": "*",
+    "fastclick": "~1.0.6",
+    "jquery": "~2.2",
+    "jquery-bez": "~1.0.11",
+    "marked": "~0.3.6",
+    "matchMedia": "~0.3.0",
+    "uikit": "~2.27.1"
+  },
+  "resolutions": {
+    "jquery": "~2.2",
+    "fastclick": "~1.0.6"
+  }
+}

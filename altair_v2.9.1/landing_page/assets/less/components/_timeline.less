@@ -1,0 +1,125 @@
+.al_timeline {
+    position: relative;
+    padding: 24px 0 32px;
+    &:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-left: -2px;
+        left: 50%;
+        content: '';
+        width: 4px;
+        background: rgba(255,255,255,.5);
+        display: block;
+    }
+    &_block {
+        .clearfix;
+        + * {
+            margin-top: 48px;
+        }
+        &:nth-child(even) {
+            .al_timeline {
+                &_content {
+                    float: right;
+                    &:after {
+                        border-left-color: transparent;
+                        border-right-color: @white;
+                        right: auto;
+                        left: -20px;
+                    }
+                }
+            }
+        }
+    }
+    &_content {
+        box-sizing: border-box;
+        background: @white;
+        width: 44%;
+        padding: 16px;
+        .boxShadowHelper(2);
+        position: relative;
+        border-radius: 4px;
+        &:after {
+            position: absolute;
+            top: 24px;
+            right: -20px;
+            content: '';
+            display: block;
+            border: 10px solid transparent;
+            border-left-color: @white;
+        }
+    }
+    &_image {
+        position: absolute;
+        left: 50%;
+        width: 64px;
+        height: 64px;
+        margin-left: -32px;
+        background: @white;
+        border-radius: 50%;
+        text-align: center;
+        z-index: 10;
+        .boxShadowHelper(2);
+        > i {
+            font-size: 32px;
+            line-height: 64px;
+        }
+    }
+}
+
+@media @screen_large_max {
+    .al_timeline {
+        &:after {
+            margin-left: 0;
+            left: 30px;
+        }
+        &_block {
+            padding-left: 96px;
+        }
+        &_content {
+            width: 100%;
+            &:after {
+                border-left-color: transparent;
+                border-right-color: @white;
+                right: auto;
+                left: -20px;
+            }
+        }
+        &_image {
+            left: 0;
+            margin-left: 0;
+        }
+    }
+}
+
+@media @screen_medium_max {
+    .al_timeline {
+        &:after {
+            margin-left: 0;
+            left: 22px;
+        }
+        &_block {
+            padding-left: 72px;
+        }
+        &_content {
+            width: 100%;
+            &:after {
+                border-left-color: transparent;
+                border-right-color: @white;
+                right: auto;
+                left: -20px;
+                top: 14px;
+            }
+        }
+        &_image {
+            width: 48px;
+            height: 48px;
+            left: 0;
+            margin-left: 0;
+            > i {
+                line-height: 48px;
+                font-size: 24px;
+            }
+        }
+    }
+}

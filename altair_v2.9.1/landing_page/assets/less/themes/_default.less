@@ -1,0 +1,23 @@
+// default theme
+@theme_default_color:         @md-color-light-blue-500;
+@theme_default_colorLight:    @md-color-light-blue-50;
+@theme_default_colorDark:     @md-color-light-blue-700;
+@theme_default_colorAccent:   @md-color-light-green-A200;
+
+.uk-navbar {
+    background: @theme_default_color;
+    &-nav {
+        > li > a {
+            color: @white;
+            &:hover,
+            &:active {
+                background: none;
+                color: @white;
+            }
+        }
+    }
+}
+
+.hero_section {
+    background: @theme_default_color;
+}

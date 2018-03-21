@@ -1,0 +1,493 @@
+[
+    {
+        "title": "Dashboard",
+        "url": "index",
+        "icon": "&#xE871;"
+    },
+    {
+        "title": "Mailbox",
+        "url": "page_mailbox",
+        "icon": "&#xE158;"
+    },
+    {
+        "title": "Invoices",
+        "url": "page_invoices",
+        "icon": "&#xE53E;"
+    },
+    {
+        "title": "Chats",
+        "icon": "&#xE0B9;",
+        "url": "#",
+        "submenu": [
+            {
+                "title": "Regular Chat",
+                "url": "page_chat"
+            },
+            {
+                "title": "Chatboxes",
+                "url": "page_chat_small"
+            }
+        ]
+    },
+    {
+        "title": "Scrum Board",
+        "url": "page_scrum_board",
+        "icon": "&#xE85C;"
+    },
+    {
+        "title": "Snippets",
+        "url": "page_snippets",
+        "icon": "&#xE86F;"
+    },
+    {
+        "title": "User Profile",
+        "url": "page_user_profile",
+        "icon": "&#xE87C;"
+    },
+    {
+        "title": "Sticky Notes",
+        "url": "page_sticky_notes",
+        "icon": "&#xE8F0;"
+    },
+    {
+        "title": "Forms",
+        "url": "#",
+        "icon": "&#xE8D2;",
+        "submenu": [
+            {
+                "title": "Regular Elements",
+                "url": "forms_regular"
+            },
+            {
+                "title": "Advanced Elements",
+                "url": "forms_advanced"
+            },
+            {
+                "title": "Dynamic",
+                "url": "forms_dynamic"
+            },
+            {
+                "title": "File Input",
+                "url": "forms_file_input"
+            },
+            {
+                "title": "File Upload",
+                "url": "forms_file_upload"
+            },
+            {
+                "title": "Validation",
+                "url": "forms_validation"
+            },
+            {
+                "title": "Wizard",
+                "url": "forms_wizard"
+            },
+            {
+                "section_title": "WYSIWYG Editors",
+                "items": [
+                    {
+                        "title": "CKeditor",
+                        "url": "forms_wysiwyg_ckeditor"
+                    },
+                    {
+                        "title": "Ckeditor Inline",
+                        "url": "forms_wysiwyg_inline"
+                    },
+                    {
+                        "title": "TinyMCE",
+                        "url": "forms_wysiwyg_tinymce"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Layout",
+        "url": "#",
+        "icon": "&#xE8F1;",
+        "submenu": [
+            {
+                "title": "Top Menu",
+                "url": "layout_top_menu"
+            },
+            {
+                "title": "Full Header",
+                "url": "layout_header_full"
+            }
+        ]
+    },
+    {
+        "title": "Kendo UI Widgets",
+        "url": "#",
+        "icon": "&#xE1BD;",
+        "submenu": [
+            {
+                "title": "Autocomplete",
+                "url": "kendoui_autocomplete"
+            },
+            {
+                "title": "Calendar",
+                "url": "kendoui_calendar"
+            },
+            {
+                "title": "ColorPicker",
+                "url": "kendoui_colorpicker"
+            },
+            {
+                "title": "ComboBox",
+                "url": "kendoui_combobox"
+            },
+            {
+                "title": "DatePicker",
+                "url": "kendoui_datepicker"
+            },
+            {
+                "title": "DateTimePicker",
+                "url": "kendoui_datetimepicker"
+            },
+            {
+                "title": "DropDownList",
+                "url": "kendoui_dropdown_list"
+            },
+            {
+                "title": "Masked Input",
+                "url": "kendoui_masked_input"
+            },
+            {
+                "title": "Menu",
+                "url": "kendoui_menu"
+            },
+            {
+                "title": "MultiSelect",
+                "url": "kendoui_multiselect"
+            },
+            {
+                "title": "Numeric TextBox",
+                "url": "kendoui_numeric_textbox"
+            },
+            {
+                "title": "PanelBar",
+                "url": "kendoui_panelbar"
+            },
+            {
+                "title": "TimePicker",
+                "url": "kendoui_timepicker"
+            },
+            {
+                "title": "Toolbar",
+                "url": "kendoui_toolbar"
+            },
+            {
+                "title": "Window",
+                "url": "kendoui_window"
+            }
+        ]
+    },
+    {
+        "title": "Components",
+        "url": "#",
+        "icon": "&#xE87B;",
+        "submenu": [
+            {
+                "title": "Accordions",
+                "url": "components_accordion"
+            },
+            {
+                "title": "Autocomplete",
+                "url": "components_autocomplete"
+            },
+            {
+                "title": "Breadcrumbs",
+                "url": "components_breadcrumbs"
+            },
+            {
+                "title": "Buttons",
+                "url": "components_buttons"
+            },
+            {
+                "title": "Buttons: FAB",
+                "url": "components_fab"
+            },
+            {
+                "title": "Cards",
+                "url": "components_cards"
+            },
+            {
+                "title": "Colors",
+                "url": "components_colors"
+            },
+            {
+                "title": "Common",
+                "url": "components_common"
+            },
+            {
+                "title": "Dropdowns",
+                "url": "components_dropdowns"
+            },
+            {
+                "title": "Dynamic Grid",
+                "url": "components_dynamic_grid"
+            },
+            {
+                "title": "Footer",
+                "url": "components_footer"
+            },
+            {
+                "title": "Grid",
+                "url": "components_grid"
+            },
+            {
+                "title": "Icons",
+                "url": "components_icons"
+            },
+            {
+                "title": "Lightbox/Modal",
+                "url": "components_modal"
+            },
+            {
+                "title": "Lists",
+                "url": "components_lists"
+            },
+            {
+                "title": "Nestable",
+                "url": "components_nestable"
+            },
+            {
+                "title": "Notifications",
+                "url": "components_notifications"
+            },
+            {
+                "title": "Panels",
+                "url": "components_panels"
+            },
+            {
+                "title": "Preloaders",
+                "url": "components_preloaders"
+            },
+            {
+                "title": "Slider",
+                "url": "components_slider"
+            },
+            {
+                "title": "Slideshow",
+                "url": "components_slideshow"
+            },
+            {
+                "title": "Sortable",
+                "url": "components_sortable"
+            },
+            {
+                "title": "Switcher",
+                "url": "components_switcher"
+            },
+            {
+                "title": "Tables",
+                "url": "components_tables"
+            },
+            {
+                "title": "Tables Examples",
+                "url": "components_tables_examples"
+            },
+            {
+                "title": "Tabs",
+                "url": "components_tabs"
+            },
+            {
+                "title": "Tooltips",
+                "url": "components_tooltips"
+            },
+            {
+                "title": "Typography",
+                "url": "components_typography"
+            }
+        ]
+    },
+    {
+        "title": "E-commerce",
+        "url": "#",
+        "icon": "&#xE8CB;",
+        "submenu": [
+            {
+                "title": "Product Details",
+                "url": "ecommerce_product_details"
+            },
+            {
+                "title": "Product Edit",
+                "url": "ecommerce_product_edit"
+            },
+            {
+                "title": "Products Grid",
+                "url": "ecommerce_products_grid"
+            },
+            {
+                "title": "Products List",
+                "url": "ecommerce_products_list"
+            }
+        ]
+    },
+    {
+        "title": "Plugins",
+        "url": "#",
+        "icon": "&#xE8C0;",
+        "submenu": [
+            {
+                "title": "Calendar",
+                "url": "plugins_calendar"
+            },
+            {
+                "title": "Charts",
+                "url": "plugins_charts"
+            },
+            {
+                "title": "Code Editor",
+                "url": "plugins_code_editor"
+            },
+            {
+                "title": "Context Menu",
+                "url": "plugins_context_menu"
+            },
+            {
+                "title": "CRUD Table",
+                "url": "plugins_crud_table"
+            },
+            {
+                "title": "Datatables",
+                "url": "plugins_datatables"
+            },
+            {
+                "title": "Diff View",
+                "url": "plugins_diff"
+            },
+            {
+                "title": "File Manager",
+                "url": "plugins_filemanager"
+            },
+            {
+                "title": "Gantt Chart",
+                "url": "plugins_gantt_chart"
+            },
+            {
+                "title": "Google Maps",
+                "url": "plugins_google_maps"
+            },
+            {
+                "title": "Image Cropper",
+                "url": "plugins_image_cropper"
+            },
+            {
+                "title": "Idle Timeout",
+                "url": "plugins_idle_timeout"
+            },
+            {
+                "title": "Push Notifications",
+                "url": "plugins_push_notifications"
+            },
+            {
+                "title": "Tour",
+                "url": "plugins_tour"
+            },
+            {
+                "title": "Tablesorter",
+                "url": "plugins_tablesorter"
+            },
+            {
+                "title": "Tree",
+                "url": "plugins_tree"
+            },
+            {
+                "title": "Vector Maps",
+                "url": "plugins_vector_maps"
+            }
+        ]
+    },
+    {
+        "title": "Pages",
+        "url": "#",
+        "icon": "&#xE24D;",
+        "submenu": [
+            {
+                "title": "Blank",
+                "url": "page_blank"
+            },
+            {
+                "title": "Contact List",
+                "url": "page_contact_list"
+            },
+            {
+                "title": "Gallery",
+                "url": "page_gallery"
+            },
+            {
+                "title": "Help/Faq",
+                "url": "page_help"
+            },
+            {
+                "title": "Login Page",
+                "url": "login"
+            },
+            {
+                "title": "Notes",
+                "url": "page_notes"
+            },
+            {
+                "title": "Pricing Tables",
+                "url": "page_pricing_tables"
+            },
+            {
+                "title": "Search Results",
+                "url": "page_search_results"
+            },
+            {
+                "title": "Settings",
+                "url": "page_settings"
+            },
+            {
+                "title": "Todo",
+                "url": "page_todo"
+            },
+            {
+                "title": "User edit",
+                "url": "page_user_edit"
+            },
+            {
+                "section_title": "Issue Tracker",
+                "items": [
+                    {
+                        "title": "List View",
+                        "url": "page_issues_list"
+                    },
+                    {
+                        "title": "Issue Details",
+                        "url": "page_issue_details"
+                    }
+                ]
+            },
+            {
+                "section_title": "Blog",
+                "items": [
+                    {
+                        "title": "Blog List",
+                        "url": "page_blog_list"
+                    },
+                    {
+                        "title": "Blog Article",
+                        "url": "page_blog_article"
+                    }
+                ]
+            },
+            {
+                "section_title": "Errors",
+                "items": [
+                    {
+                        "title": "Error 404",
+                        "url": "error_404"
+                    },
+                    {
+                        "title": "Error 500",
+                        "url": "error_500"
+                    }
+                ]
+            }
+        ]
+    }
+]
